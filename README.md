@@ -15,3 +15,12 @@ $|Ends with|demo$|my demo|demos,demonstration|
 {x}|Exactly x|w{3}|www|w,ww|
 {x,}|x or more|go{2,}gle|google,gooogle,goooogle|gogle|
 {x,y}|Between x and y|w{1,3}|w,ww,www|wwww|
+
+|Character Classes|Description|Example|Matches|Zero Matches|
+:---|:---|:---|:---|---
+\s|White space character|los\sangeles|los angeles|los.angeles|
+\S|Non-white space character|los\Sangeles|los.angeles|los angeles|
+\d|Digit character|\d{2,}|12,345|1,2,3,4,5|
+\D|Non-digit character|\D{3}|foo,bar|fo1|
+\w|Word character|\w{4}|v311|v3.1|
+\W|Non-word character|\W|.$%?|abc|
