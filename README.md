@@ -6,6 +6,8 @@ A collection of some of the most useful regular expressions
 :---|:---|:---|:---|---
 ^|Starts with|^demo|demos,demonstration|my demo|
 $|Ends with|demo$|my demo|demos,demonstration|
+\b|Word boundary|\bis\b|this is Sparta|this isn't Sparta|
+\B|Not word boundary|\Bis|this is Sparta|it is Sparta|
 
 |Quanti­fiers|Description|Example|Matches|Zero Matches|
 :---|:---|:---|:---|---
@@ -24,3 +26,4 @@ $|Ends with|demo$|my demo|demos,demonstration|
 \D|Non-digit character|\D{3}|foo,bar|fo1|
 \w|Word character|\w{4}|v311|v3.1|
 \W|Non-word character|\W|.$%?|abc|
+
