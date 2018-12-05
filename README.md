@@ -27,3 +27,7 @@ $|Ends with|demo$|my demo|demos,demonstration|
 \w|Word character|\w{4}|v311|v3.1|
 \W|Non-word character|\W|.$%?|abc|
 
+|Pattern Modifiers|Description|
+:---|---
+g|Global match|
+i|Case-i­nse­nsitive|
