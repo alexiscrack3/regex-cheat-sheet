@@ -26,6 +26,8 @@ $|Ends with|demo$|my demo|demos,demonstration|
 \D|Non-digit character|\D{3}|foo,bar|fo1|
 \w|Word character|\w{4}|v311|v3.1|
 \W|Non-word character|\W|.$%?|abc|
+\[\]|Range|\[abc\]|a,b,c|d,e
+\[^\]|Negative range|\[^abc\]|d,e|a,b,c|
 
 |Groups and Ranges|Description|Example|Matches|Zero Matches|
 :---|:---|:---|:---|---
