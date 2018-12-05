@@ -27,6 +27,10 @@ $|Ends with|demo$|my demo|demos,demonstration|
 \w|Word character|\w{4}|v311|v3.1|
 \W|Non-word character|\W|.$%?|abc|
 
+|Groups and Ranges|Description|Example|Matches|Zero Matches|
+:---|:---|:---|:---|---
+\||Alternation|x\|y|x,y|z|
+
 |Pattern Modifiers|Description|
 :---|---
 g|Global match|
